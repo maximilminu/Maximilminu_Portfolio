@@ -1,10 +1,9 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import contactImg from "../assets/img/contact-img.svg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faAddressCard } from '@fortawesome/free-solid-svg-icons'
-
+import contactImg from "../assets/img/maxi.jpg"
 
 const Contact = () => {
 
@@ -51,8 +50,8 @@ const Contact = () => {
         <section className='contact' id="connect">
             <Container>
                 <Row className='align-items-center'>
-                    <Col md={6}>
-                        <img src={contactImg} alt="Contact Us" />
+                    <Col md={6} id="contact-img">
+                        <img src={contactImg} alt="Contact Us" id='maximinu-img' />
                     </Col>
                     <Col md={6}>
                         <h2>Conectemos</h2>

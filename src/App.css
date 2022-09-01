@@ -587,6 +587,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 31px;
 }
 
+#contact-img{
+  z-index: 1000;
+}
+
+#maximinu-img {
+  border-radius: 50%;
+  background-color: white;
+  rotate: 3deg;
+}
+
 /* Footer CSS */
 
 .footer {
