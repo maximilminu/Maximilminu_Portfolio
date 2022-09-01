@@ -49,7 +49,7 @@ const NavBar = () => {
                                 <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1HYZUR66zJ66EiUr-zqjeEaZPJZhglKkT/view?usp=sharing" id='cv-container'><div id='cv-text'>CV</div></a>
                             </div>
                             <button className='vvd'>
-                                <Nav.Link href="#connect"> <span>let's Connect</span></Nav.Link>
+                                <Nav.Link href="#connect"> <span>Contacto</span></Nav.Link>
                             </button>
                         </span>
 

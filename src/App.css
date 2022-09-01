@@ -474,7 +474,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #36aa40 -5.91%, #4A2FBD 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -631,18 +631,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transform: scale(0);
   transition: 0.3s ease-in-out;
 }
+
 .social-icon-footer a:hover::before {
   transform: scale(1);
 }
-.social-icon-footer a img {
-  width: 40%;
-  z-index: 1;
-  transition: 0.3s ease-in-out;
+
+.social-icon-footer a:hover .navbar-icon {
+  color: #67eb2f !important;
+  position: relative !important;
+  z-index: 100 !important;
 }
-.social-icon-footer a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
-    hue-rotate(346deg) brightness(95%) contrast(86%);
+
+.social-icon-footer a:hover #cv-text {
+  color: #67eb2f !important;
+  position: relative !important;
+  z-index: 100 !important;
 }
+
 
 /************ Game of Life Css ************/
 

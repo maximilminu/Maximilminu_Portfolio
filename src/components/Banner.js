@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import { ArrowRightCircle } from 'react-bootstrap-icons'
+// import { ArrowRightCircle } from 'react-bootstrap-icons'
 
 const Banner = () => {
     const [loopNum, setLoopNum] = useState(0)
@@ -61,7 +61,7 @@ const Banner = () => {
                         <p>Mi nombre es Maximiliano Minutillo y soy Full-Stack Developer. Tengo muchas ganas de desarrollarme en la industria y seguir aprendiendo.</p>
                         <br />
                         <p>Buscando cambios fue que decidí realizar el Coding Bootcamp de Plataforma 5, donde nos egresamos con más de 800 horas de codeo, trabajando con metodologías ágiles y 3 proyectos finalizados entre profesionales e individuales.</p>
-                        <button onClick={() => console.log("connect")}>Let's connect <ArrowRightCircle size={25} /> </button>
+                        {/* <button onClick={() => console.log("connect")}>Let's connect <ArrowRightCircle size={25} /> </button> */}
                     </Col>
                 </Row>
             </Container>
