@@ -47,21 +47,20 @@ const Banner = () => {
     return (
         <section className='banner' id='home'>
 
-                        <div id="stars"></div>
-                        <div id="stars2"></div>
+            <div id="stars"></div>
+            <div id="stars2"></div>
             <Container>
-
                 <Row className='align-items-center'>
-                    <Col >
-                        <span className='tagline' >Bienvenido a mi Portfolio</span>
+                    <Col sm={12}>
+                        {/* <span className='tagline' >Bienvenido a mi Portfolio</span> */}
                         <h1>{` Maximiliano Minutillo`}
                             <br />
-                            <span className='wrap'>{` ${text}`}</span>
+                            <span className='wrap' id='wrap-text'>{` ${text}`}</span>
                         </h1>
-                        <p>Mi nombre es Maximiliano Minutillo y soy Full-Stack Developer. Tengo muchas ganas de desarrollarme en la industria y seguir aprendiendo.</p>
-                        <br />
-                        <p>Buscando cambios fue que decidí realizar el Coding Bootcamp de Plataforma 5, donde nos egresamos con más de 800 horas de codeo, trabajando con metodologías ágiles y 3 proyectos finalizados entre profesionales e individuales.</p>
-                        {/* <button onClick={() => console.log("connect")}>Let's connect <ArrowRightCircle size={25} /> </button> */}
+                        <div className='banner-text-container'>
+                            <p>Mi nombre es Maximiliano Minutillo y soy Full-Stack Developer. Tengo muchas ganas de desarrollarme en la industria y seguir aprendiendo.</p>
+                            <p>Buscando cambios fue que decidí realizar el Coding Bootcamp de Plataforma 5, donde nos egresamos con más de 800 horas de codeo, trabajando con metodologías ágiles y 3 proyectos finalizados entre profesionales e individuales.</p>
+                        </div>
                     </Col>
                 </Row>
             </Container>

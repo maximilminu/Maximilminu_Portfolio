@@ -27,7 +27,7 @@ const Skills = () => {
                         <Col>
                             <div className='skill-bx' >
                                 <h2>
-                                    Tecnologías
+                                    Skills
                                 </h2>
                                 <p>Dentro de los lenguajes, tecnologías y herramientas que tengo experiencia se encuentran JavaScript, React.JS, React Native, PostgreSQL, Node.JS, Github, Redux, HTML y CSS.</p>
                                 <div className='skills-img-container'>
