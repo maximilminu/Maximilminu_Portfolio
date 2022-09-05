@@ -39,8 +39,9 @@ const NavBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link href="#home" className={activeLink === "home" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("home")} >Inicio</Nav.Link>
-                            <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Skills</Nav.Link>
+                            <Nav.Link href="#skills" className={activeLink === "skills" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("skills")}>Herramientas</Nav.Link>
                             <Nav.Link href="#projects" className={activeLink === "projects" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("projects")}>Projectos</Nav.Link>
+                            <Nav.Link href="#connect" className={activeLink === "connect" ? "active navbar-link" : "navbar-link"} onClick={() => onUpdateActiveLink("connect")}>Contacto</Nav.Link>
                         </Nav>
                         <span className='navbar-text'>
                             <div className='social-icon'>
@@ -48,9 +49,9 @@ const NavBar = () => {
                                 <a target="_blank" rel="noreferrer" href='https://github.com/maximilminu'><FontAwesomeIcon icon={faGithub} className="navbar-icon"/></a>
                                 <a target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1HYZUR66zJ66EiUr-zqjeEaZPJZhglKkT/view?usp=sharing" id='cv-container'><div id='cv-text'>CV</div></a>
                             </div>
-                            <button className='vvd'>
+                            {/* <button className='vvd'>
                                 <Nav.Link href="#connect"> <span>Contacto</span></Nav.Link>
-                            </button>
+                            </button> */}
                         </span>
 
                     </Navbar.Collapse>

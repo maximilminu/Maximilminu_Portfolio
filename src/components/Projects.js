@@ -21,7 +21,7 @@ const Projects = () => {
             title: "Shoot-Off",
             description: "E-Commerce de productos de arquería, con vistas de cliente y permisos para el administrador, carrito de compras y reseñas. Se utilizó React, PostgreSql, Global Context, Passport y metodología Scrum.",
             imgUrl: projImg3,
-            link: "https://github.com/maximilminu/shootoff"
+            link: "https://github.com/maximilminu/Shoot-off"
         },
         {
             title: "The Movie Data Base",
@@ -46,7 +46,7 @@ const Projects = () => {
                 <Row id='project-bx'>
                     <Col>
                         <h2>Projectos</h2>
-                        <p>A continuación se encuentran los proyectos que he realizado con una breve descripción, donde además podran acceder a su repositorio de GitHub. Continuo trabajando en ellos, refactorizando, optimizando codigo y poniendo en práctica otras herramientas con el fin de seguir desarrollando mis habilidades.</p>
+                        <p>A continuación se encuentran los proyectos que he realizado, donde además podran acceder a su repositorio de GitHub. Continúo trabajando en ellos, refactorizando, optimizando codigo y poniendo en práctica otras herramientas con el fin de seguir desarrollando mis habilidades.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey={"first"}>
                             <Nav variant="pills" className='nav-pills' id="pills-tab" >
                                 <Nav.Item>
@@ -94,7 +94,6 @@ const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            {/* <img className="background-image-right" src={colorSharp2} /> */}
 
         </section>
     )

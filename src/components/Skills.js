@@ -27,52 +27,52 @@ const Skills = () => {
                         <Col>
                             <div className='skill-bx' >
                                 <h2>
-                                    Skills
+                                    Herramientas
                                 </h2>
                                 <p>Dentro de los lenguajes, tecnologías y herramientas que tengo experiencia se encuentran JavaScript, React.JS, React Native, PostgreSQL, Node.JS, Github, Redux, HTML y CSS.</p>
                                 <div className='skills-img-container'>
                                     <div className='skill-container'>
-                                        <img src={javaScript} />
+                                        <img src={javaScript} alt="javascript" />
                                         <p>JavaScript</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={reactNative} />
+                                        <img src={reactNative} alt="reactNative" />
                                         <p>React.Js</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={NodeLogo} />
+                                        <img src={NodeLogo} alt="Node.js" />
                                         <p>Node.Js</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={postgresql} />
+                                        <img src={postgresql} alt="PostgreSQL"/>
                                         <p>PostgreSQL</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={express} />
+                                        <img src={express} alt="Express"/>
                                         <p>Express.Js</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={bootstrap} />
+                                        <img src={bootstrap} alt="Bootstrap" />
                                         <p>Bootstrap</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={git} />
+                                        <img src={git} alt="Git"/>
                                         <p>Git</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={github} />
+                                        <img src={github} alt="Github"/>
                                         <p>Github</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={html} />
+                                        <img src={html} alt="HTML"/>
                                         <p>HTML</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={css} />
+                                        <img src={css} alt="CSS" />
                                         <p>Css</p>
                                     </div>
                                     <div className='skill-container'>
-                                        <img src={redux} />
+                                        <img src={redux} alt="Redux"/>
                                         <p>Redux</p>
                                     </div>
                                 </div>

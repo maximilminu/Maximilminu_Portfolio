@@ -11,7 +11,7 @@ const Footer = () => {
             <Container>
                 <Row className='container-logo-footer'>
                     <Col sm={8} alt="logo" className='footerLogo'>
-                        <img src={logo} />
+                        <img src={logo} alt="MAX logo"/>
                     </Col>
                     <Col className="footer-icon-container" >
                         <div className='social-icon-footer'>

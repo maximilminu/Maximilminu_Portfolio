@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons'
@@ -6,45 +6,6 @@ import { faEnvelope, faAddressCard } from '@fortawesome/free-solid-svg-icons'
 import contactImg from "../assets/img/maxi.jpg"
 
 const Contact = () => {
-
-    const formInitialDetails = {
-        firstName: "",
-        lastName: "",
-        email: "",
-        phone: "",
-        message: ""
-    }
-
-    const [formDetails, setFormDetails] = useState(formInitialDetails)
-    const [buttonText, setButtonText] = useState("Send")
-    const [status, setStatus] = useState({})
-    const onFormUpdate = (category, value) => {
-        setFormDetails({
-            ...formDetails,
-            [category]: value
-        })
-    }
-
-    const handleSubmit = async (e) => {
-        e.prevent()
-        setButtonText("Sending...")
-        let response = await fetch("https://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "Application/json;charset=utf-8"
-            },
-            body: JSON.stringify(formDetails)
-        })
-        setButtonText("Send")
-        let result = response.json()
-        setFormDetails(formInitialDetails)
-
-        if (result.code === 200) {
-            setStatus({ success: true, message: "Message sent Successfully." })
-        } else {
-            setStatus({ success: false, message: "Somthing went wrong, please try again later." })
-        }
-    }
 
     return (
         <section className='contact' id="connect">
