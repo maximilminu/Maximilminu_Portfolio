@@ -285,35 +285,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
-  background-position: top center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  text-align: center;
+  text-align: center; 
 }
 
-.banner img {
-  max-width: 100%;
-  height: auto;
-  margin-right: -150px;
-}
-
-.banner .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(
-    90.21deg,
-    rgba(170, 54, 124, 0.5) -5.91%,
-    rgba(74, 47, 189, 0.5) 111.58%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 20px;
-  margin-bottom: 16px;
-  display: inline-block;
-}
 .banner h1 {
-  white-space: pre;
-  font-size: 65px;
+  /* white-space: pre; */
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -326,11 +303,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  /* width: 96%; */
 }
 
 .banner-text-container {
-  margin: 30px 9% 0 9%;
+  margin: 30px 10% 0 10%;
 }
 
 .banner button {
@@ -353,7 +330,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 #wrap-text {
-  font-size: 50px;
+  white-space: pre;
+  font-size: 40px;
 }
 
 /************ SKILLS Css ************/
