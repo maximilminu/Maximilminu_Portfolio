@@ -385,7 +385,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
 }
 
-
 /* *********** Projects Css *********** */
 
 .project {
@@ -474,7 +473,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 64px;
   text-align: center;
   padding: 40px 5px 20px 5px;
-  margin: -60px 5% 0 5%;
+  margin: -60px 45px 0 45px;
   --bs-gutter-x: 0;
   border: 3px solid #fff;
 }
