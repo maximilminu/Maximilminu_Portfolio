@@ -45,7 +45,7 @@ const Projects = () => {
             <Container>
                 <Row id='project-bx'>
                     <Col>
-                        <h2>Projectos</h2>
+                        <h2>Proyectos</h2>
                         <p>A continuación se encuentran los proyectos que he realizado, donde además podran acceder a su repositorio de GitHub. Continúo trabajando en ellos, refactorizando, optimizando codigo y poniendo en práctica otras herramientas con el fin de seguir desarrollando mis habilidades.</p>
                         <Tab.Container id="projects-tabs" defaultActiveKey={"first"}>
                             <Nav variant="pills" className='nav-pills' id="pills-tab" >
