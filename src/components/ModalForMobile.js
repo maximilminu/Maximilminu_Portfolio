@@ -19,11 +19,9 @@ const ModalForMobile = () => {
     }, [check])
 
 
-      console.log(check);
-
     return (
 
-        !check? <> </>:
+        check? 
 
         <>
             <Modal show={show} onHide={handleClose}>
@@ -38,6 +36,7 @@ const ModalForMobile = () => {
                 </Modal.Footer>
             </Modal>
         </>
+        : <> </>
     )
 }
 
