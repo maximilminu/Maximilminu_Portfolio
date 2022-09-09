@@ -6,14 +6,14 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ModalForMobile from './components/ModalForMobile';
+// import ModalForMobile from './components/ModalForMobile';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Banner />
-      <ModalForMobile />
+      {/* <ModalForMobile /> */}
       <Skills />
       <Projects />
       <Contact />
