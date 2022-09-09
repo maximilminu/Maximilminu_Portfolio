@@ -15,7 +15,7 @@ const Projects = () => {
             title: "Global News App",
             description: "Aplicación para el sector de RRHH, de la empresa Global News con vistas de usuario y permisos para el administrador. Se utilizó React Native, Redux, Express, PostgreSQL, JWT y metodología Scrum.",
             imgUrl: projImg1,
-            link: "https://github.com/maximilminu/Global-News-Front"
+            link: "https://github.com/maximilminu/Global-News"
         },
         {
             title: "Shoot-Off",
