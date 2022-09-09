@@ -631,92 +631,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 100 !important;
 }
 
-
-/************ Game of Life Css ************/
-
-
-#board {
-  margin: 0 auto;
-  background-color: white;
-  width: 40vw;
-  height: 40vw;
-  max-width: 70vh;
-  max-height: 70vh;
+/************ MODAL Css ************/
+.modal-content {
+  margin-top: 80px;
 }
 
-#board td {
-  border: 1px solid #ddd;
-}
-
-td.alive {
-  background-color: #ff062e;
-}
-
-td {
-  background-color: #ced5db;
-}
-
-#sidebar {
-  width: 30%;
-  min-width: 300px;
-  background-color: rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#content {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#content h2 {
-  font-size: 45px;
+.modal-body {
+  color: #121212;
   text-align: center;
-  color: rgba(9, 36, 84, 1);
 }
 
-.btn {
-  width: 90%;
-  margin: 25px;
-  height: 25%;
-  font-size: 3rem;
-  font-weight: 700;
-  border-radius: 15px;
-  border: none;
-  padding: 1rem 2rem;
-  text-decoration: none;
-  background: #092454;
-  color: #ced5db;
-  cursor: pointer;
-  text-align: center;
-  transition: all 0.3s;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+#modal-header {
+  padding: 0px 15px 0 15px;
 }
 
-.btn:hover {
-  background: #62d0ff;
-  color: #092454;
+#modal-footer {
+  padding: 0px 15px 0 15px;
 }
-
-#clear_btn:hover {
-  background: #ff062e;
-  color: #092454;
-}
-
-#step_btn:hover {
-  background: #0b5409;
-}
-
-.footer a {
-  color: #62d0ff;
-}
-
 
 /************ STARS BG Css ************/
 
