@@ -9,6 +9,7 @@ const Banner = () => {
     const [index, setIndex] = useState(1)
     const toRotate = ["Web Developer", "Back-End Developer", "Front-End Developer"];
     const period = 1800
+    
 
     useEffect(() => {
         let ticker = setInterval(() => {
